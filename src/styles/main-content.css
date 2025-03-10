@@ -38,12 +38,7 @@
     background-color: var(--bg-arrow-color);
     border-radius: 50%;
     border: none;
-    /* cursor: pointer; */
-}
-
-.header__login {
-    display: flex;
-    align-items: center;
+    cursor: pointer;
 }
 
 .header__search {
@@ -73,16 +68,23 @@
     outline: none;
 }
 
-.header__login .subscribe {
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__login .subscribe, .subscribe a {
     color: #a7a7a7;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
     border: 0;
+    text-decoration: none;
+    text-transform: none;
 }
 
-.header__login .login {
+.header__login .login, .login a {
     width: 100px;
     height: 48px;
     color: #000;
@@ -90,6 +92,8 @@
     font-weight: 700;
     border-radius: 40px;
     border: 0;
+    text-decoration: none;
+    text-transform: none;
 }
 
 .playlist-container {
