@@ -9,6 +9,7 @@
 
 .header__navigation{
     display: flex;
+    min-width: 680px;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 10px;
 }
 
 .header__navigation .navigation .arrow-left {
@@ -46,6 +48,7 @@
     align-items: center;
     width: 364px;
     height: 48px;
+    margin: 5px;
     background-color: #242424;
     border-radius: 500px;
     border: 1px solid transparent;
@@ -75,10 +78,12 @@
 
 .header__login .subscribe, .subscribe a {
     color: #a7a7a7;
+    min-width: 120px;
+    padding: 2px;
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
-    margin-right: 32px;
+    margin-right: 20px;
     border: 0;
     text-decoration: none;
     text-transform: none;

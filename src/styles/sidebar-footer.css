@@ -1,6 +1,7 @@
-body{
+body, html{
     background-color: #000;
     font-family: var(--font-dm-sans);
+    min-height: 100vh;
 }
 
 .sidebar{
@@ -27,6 +28,10 @@ body{
 
 .sidebar__navigation .logo img{
     width:80px;
+}
+
+.library .aba_login2 {
+    display: none;
 }
 
 .sidebar nav ul{

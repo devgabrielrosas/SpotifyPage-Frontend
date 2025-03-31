@@ -1,5 +1,72 @@
-@media screen  and (max-width:1015px) {
+@media screen  and (max-width:1050px) {
     .offer__list-item {
       grid-template-columns: 1fr 1fr;  
     }    
+}
+@media screen  and (max-width:1050px) {
+  body {
+    overflow: hidden;
+  }
+  .library {
+    height: 65vh;
+  }
+  .sidebar .cookies {
+    display: none;
+  }
+  .library .aba_login2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .library .subscribe, .subscribe a {
+    color: #a7a7a7;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+    text-transform: none;
+  }  
+  .library .login, .login a {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+  .header__navigation {
+    min-width: 470px;
+  }
+  .playlist-container {
+    min-width: 490px;
+    height: 76.2vh;
+  }
+  .offer__scroll-container {
+    max-height: 50vh;
+  }
+  .header__login{
+    display: none;
+  }
+  .disclaimer-premium .disclaimer-premium__subtitle {
+    display: none;
+  }
+  .disclaimer-premium {
+    display: none;
+  }
+  .disclaimer-premium .disclaimer-premium__title {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+}
+
+@media screen  and (min-width:1051px) {
+  .playlist-container {
+    min-width: 704px;
+  }
 }
